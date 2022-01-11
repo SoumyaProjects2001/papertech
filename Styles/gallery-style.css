@@ -1,0 +1,148 @@
+.Mobile{
+  display: none;
+}
+
+.Body1{
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Body1 h1{
+  font-size: 4.5em;
+  color: #000;
+  text-align: center;
+  margin-top: -100px;
+  position: absolute;
+  left: 41%;
+}
+
+.Body1 hr{
+  width: 80%;
+  height: 1px;
+  border-width: 1px;
+  color: #000;
+  background-color: #000;
+  margin-top: 80px;
+}
+
+.Border1{
+  background-color: #fca652;
+  width: 100%;
+  height: 40px;
+}
+
+.Body2{
+
+}
+
+.Body2 .container{
+  margin-top: 60px;
+}
+
+.Body2 .Row0 .col-lg-3 p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+.Body2 .Row0 .col-lg-9 p{
+  font-size: 16px;
+  margin-bottom: 45px;
+}
+
+.Body2 .I2{
+  width: 520px;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.Body2 .Row1 .I1{
+  width: 250px;
+  height: 250px;
+  border: 10px;
+}
+
+.Body3{
+
+}
+
+.Body3 .container{
+ margin-top: 50px;
+}
+
+.Body3 .container .col-lg-4{
+  width: 350px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+.Body3 .container .col-lg-4 img{
+  width: 350px;
+  height: 250px;
+}
+
+
+
+/*                          FOR MOBILE                                 */
+
+@media screen and (max-width:450px){
+  .Large{
+    display: none;
+  }
+
+  .Mobile{
+    display: block;
+  }
+
+  .Body1{
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Body1 h1{
+    font-size: 3.0em;
+    color: #000;
+    text-align: center;
+    margin-top: 0px;
+    position: absolute;
+    left: 25%;
+  }
+
+  .Body1 hr{
+    width: 80%;
+    height: 1px;
+    border-width: 1px;
+    color: #000;
+    background-color: #000;
+    margin-top: 80px;
+  }
+
+  .Body2 .Row1 .I1{
+    width: 250px;
+    height: 250px;
+    border: 10px;
+    padding-top: 20px;
+  }
+
+  .Body2 .I2{
+    width: 320px;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+}

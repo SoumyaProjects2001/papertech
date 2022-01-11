@@ -1,0 +1,603 @@
+.Mobile{
+  display: none;
+}
+
+.Body1{
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-image: url("OBG1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Body1 .Body11{
+  background-color: #000;
+}
+
+.Body1 h1{
+  font-size: 4.5em;
+  color: #fff;
+  text-align: center;
+  margin-top: -100px;
+}
+
+.Body2{
+  margin-top: 80px;
+}
+
+.Body2 h2{
+  margin-left: 2%;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.Body2 .col-lg-4{
+  position: relative;
+  max-width: 300px;
+  max-height: 300px;
+  display: inline-block;
+  padding: 0;
+  margin: auto 40px;
+  margin-bottom: 25px;
+}
+
+.Body2 .col-lg-4 .im{
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.Body2 .col-lg-4 .text{
+  position: absolute;
+  background-color: #212529a6;
+  opacity: 0;
+  transition: all 2s ease;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+}
+
+.Body2 .col-lg-4:hover .text{
+  opacity: 1;
+}
+
+.Body2 .col-lg-4 .text h4{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  color: #fff;
+}
+
+.Body2 .col-lg-4 .text a{
+  position: absolute;
+  top: 55%;
+  left: 46%;
+  color: #fff;
+}
+
+.Body2 .col-lg-4 .text a:hover{
+  color: deeppink;
+}
+
+.Body2 .col-lg-4 .text i{
+  font-size: 30px;
+}
+
+.Body3{
+  margin-top: 80px;
+}
+
+.Body3 h2{
+  margin-left: 2%;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.Body3 .col-lg-3{
+  position: relative;
+  max-width: 250px;
+  max-height: 250px;
+  padding: 0;
+  margin: auto 15px;
+  margin-bottom: 20px;
+}
+
+.Body3 .col-lg-3 .im{
+  display: block;
+  width: 250px;
+  height: 250px;
+}
+
+.Body3 .iii1{
+  margin-left: 3%;
+}
+
+.Body3 .col-lg-3 .text{
+  position: absolute;
+  background-color: #212529a6;
+  opacity: 0;
+  transition: all 2s ease;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+}
+
+.Body3 .col-lg-3:hover .text{
+  opacity: 1;
+}
+
+.Body3 .col-lg-3 .text h4{
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  color: #fff;
+}
+
+.Body3 .col-lg-3 .text a{
+  position: absolute;
+  top: 58%;
+  left: 44%;
+  color: #fff;
+}
+
+.Body3 .col-lg-3 .text a:hover{
+  color: deeppink;
+}
+
+.Body3 .col-lg-3 .text i{
+  font-size: 30px;
+}
+
+.Body4{
+  margin-top: 80px;
+}
+
+.Body4 .container{
+  margin-left: 200px;
+}
+
+.Body4 h2{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.Body4 .col-lg-3{
+  position: relative;
+  max-width: 250px;
+  max-height: 220px;
+  padding: 0;
+  margin: auto 15px;
+  margin-bottom: 100px;
+}
+
+.Body4 .col-lg-3 .im{
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.Body4 .col-lg-3 .WORK{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.Body4 .col-lg-3 .text{
+  position: absolute;
+  background-color: #212529a6;
+  opacity: 0;
+  transition: all 2s ease;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.Body4 .col-lg-3:hover .text{
+  opacity: 1;
+}
+
+.Body4 .col-lg-3 .text h4{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  color: #fff;
+}
+
+.Body4 .col-lg-3 .text a{
+  position: absolute;
+  top: 65%;
+  left: 44%;
+  color: #fff;
+}
+
+.Body4 .col-lg-3 .text a:hover{
+  color: deeppink;
+}
+
+.Body4 .col-lg-3 .text i{
+  font-size: 30px;
+}
+
+.Body5{
+  margin-top: 80px;
+}
+
+.Body5 .container{
+  margin-left: 230px;
+}
+
+.Body5 h2{
+  font-size: 40px;
+  margin-left: -20px;
+  margin-bottom: 30px;
+}
+
+.Body5 .col-lg-6{
+  position: relative;
+  padding: 0;
+  max-width: 450px;
+  max-height: 500px;
+}
+
+.Body5 .FF{
+  margin-left: 10%;
+}
+
+.Body5 .col-lg-6 .carousel .carousel-item{
+  position: relative;
+}
+
+.Body5 .col-lg-6 img{
+  width: 450px;
+  height: 500px;
+}
+
+.Body5 .col-lg-6 .carousel .text{
+  position: absolute;
+  background-color: #212529a6;
+  opacity: 0;
+  transition: all 2s ease;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 500px;
+  text-align: center;
+}
+
+.Body5 .col-lg-6 .carousel .carousel-item:hover .text{
+  opacity: 1;
+}
+
+.Body5 .col-lg-6 .text h3{
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  color: #fff;
+}
+
+.Body5 .col-lg-6 .text a{
+  position: absolute;
+  top: 52%;
+  left: 47%;
+  color: #fff;
+}
+
+.Body5 .col-lg-6 .text a:hover{
+  color: deeppink;
+}
+
+.Body5 .col-lg-6 .text i{
+  font-size: 30px;
+}
+
+
+
+/*                           FOR MOBILE                                        */
+
+
+
+@media screen and (max-width:450px){
+  .Large{
+    display: none;
+  }
+
+  .Mobile{
+    display: block;
+  }
+
+  .Body1{
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background-image: url("OBG1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Body1 .Body11{
+    background-color: #000;
+  }
+
+  .Body1 h1{
+    font-size: 3.5em;
+    color: #fff;
+    text-align: center;
+    margin-top: -100px;
+  }
+
+  .Body2{
+    margin-top: 150px;
+  }
+
+  .Body2 h2{
+    margin-left: 2%;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .Body2 .col-lg-4{
+    position: relative;
+    max-width: 260px;
+    max-height: 260px;
+    display: inline-block;
+    padding: 0;
+    margin: auto 40px;
+    margin-bottom: 25px;
+  }
+
+  .Body2 .col-lg-4 .im{
+    display: block;
+    width: 260px;
+    height: 260px;
+  }
+
+  .Body2 .col-lg-4 .text{
+    position: absolute;
+    background-color: #212529a6;
+    opacity: 0;
+    transition: all 2s ease;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 260px;
+    text-align: center;
+  }
+
+  .Body2 .col-lg-4:hover .text{
+    opacity: 1;
+  }
+
+  .Body2 .col-lg-4 .text h4{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    color: #fff;
+  }
+
+  .Body2 .col-lg-4 .text a{
+    position: absolute;
+    top: 55%;
+    left: 46%;
+    color: #fff;
+  }
+
+  .Body2 .col-lg-4 .text a:hover{
+    color: deeppink;
+  }
+
+  .Body2 .col-lg-4 .text i{
+    font-size: 30px;
+  }
+
+  .Body3{
+    margin-top: 80px;
+  }
+
+  .Body3 h2{
+    margin-left: 0%;
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .Body3 .col-lg-3{
+    position: relative;
+    max-width: 150px;
+    max-height: 180px;
+    padding: 0;
+    margin: auto 15px;
+    margin-bottom: 20px;
+  }
+
+  .Body3 .col-lg-3 .im{
+    display: block;
+    width: 150px;
+    height: 180px;
+  }
+
+  .Body3 .iii1{
+    margin-left: 3%;
+  }
+
+  .Body3 .col-lg-3 .text{
+    position: absolute;
+    background-color: #212529a6;
+    opacity: 0;
+    transition: all 2s ease;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 180px;
+    text-align: center;
+  }
+
+  .Body3 .col-lg-3:hover .text{
+    opacity: 1;
+  }
+
+  .Body3 .col-lg-3 .text h4{
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    color: #fff;
+  }
+
+  .Body3 .col-lg-3 .text a{
+    position: absolute;
+    top: 62%;
+    left: 44%;
+    color: #fff;
+  }
+
+  .Body3 .col-lg-3 .text a:hover{
+    color: deeppink;
+  }
+
+  .Body3 .col-lg-3 .text i{
+    font-size: 30px;
+  }
+
+  .Body4{
+    margin-top: 80px;
+  }
+
+  .Body4 .container{
+    margin: auto;
+  }
+
+  .Body4 h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .Body4 .col-lg-3{
+    max-width: 150px;
+    max-height: 180px;
+    padding: 0;
+    margin: auto 15px;
+    margin-bottom: 170px;
+  }
+
+  .Body4 .col-lg-3 .im{
+    display: block;
+    width: 150px;
+    height: 180px;
+    border-radius: 50%;
+  }
+
+  .Body4 .col-lg-3 .WORK{
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .Body4 .col-lg-3 h4{
+    top: 50%;
+    left: 25%;
+    color: #000;
+    font-size: 20px;
+  }
+
+  .Body4 .col-lg-3 a{
+    top: 65%;
+    left: 44%;
+    color: #000;
+  }
+
+  .Body4 .col-lg-3 a:hover{
+    color: deeppink;
+  }
+
+  .Body4 .col-lg-3 i{
+    font-size: 30px;
+  }
+
+  .Body5{
+    margin-top: 80px;
+  }
+
+  .Body5 .container{
+    margin-left: auto;
+  }
+
+  .Body5 h2{
+    font-size: 40px;
+    margin-left: 0px;
+    margin-bottom: 30px;
+  }
+
+  .Body5 .col-lg-6{
+    position: relative;
+    padding: 0;
+    max-width: 90%;
+    max-height: 450px;
+    margin-left: 8%;
+  }
+
+  .Body5 .FF{
+    margin-left: 8%;
+    margin-top: 140px;
+  }
+
+  .Body5 .col-lg-6 .carousel .carousel-item{
+    position: relative;
+  }
+
+  .Body5 .col-lg-6 img{
+    width: 90%;
+    height: 450px;
+  }
+
+  .Body5 .col-lg-6 .carousel .text{
+    position: absolute;
+    background-color: #212529a6;
+    opacity: 0;
+    transition: all 2s ease;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 450px;
+    text-align: center;
+  }
+
+  .Body5 .col-lg-6 .carousel .carousel-item:hover .text{
+    opacity: 1;
+  }
+
+  .Body5 .col-lg-6 .text h3{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    color: #fff;
+  }
+
+  .Body5 .col-lg-6 .text a{
+    position: absolute;
+    top: 52%;
+    left: 47%;
+    color: #fff;
+  }
+
+  .Body5 .col-lg-6 .text a:hover{
+    color: deeppink;
+  }
+
+  .Body5 .col-lg-6 .text i{
+    font-size: 30px;
+  }
+
+}

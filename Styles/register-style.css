@@ -1,0 +1,38 @@
+.Mobile{
+  display: none;
+}
+
+.Body{
+  text-align: center;
+}
+
+.Body h1{
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.Body .Sh2{
+  margin-top: 50px;
+}
+
+.Body .bbbb{
+  width: 176px;
+  height: 44px;
+  margin-top: 50px;
+}
+
+
+/*                     FOR MOBILE                         */
+
+
+@media screen and (max-width: 450px){
+
+  .Large{
+    display: none;
+  }
+
+  .Mobile{
+    display: block;
+  }
+}

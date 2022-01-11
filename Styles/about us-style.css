@@ -1,0 +1,177 @@
+.Mobile{
+  display: none;
+}
+
+.Body1{
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Body1 h1{
+  font-size: 4.5em;
+  color: #000;
+  text-align: center;
+  margin-top: -100px;
+  position: absolute;
+  left: 38%;
+}
+
+.Body1 hr{
+  border-width: 1px;
+  color: #000;
+  background-color: #000;
+  height: 1px;
+  width: 80%;
+  margin-top: 80px;
+}
+
+.Border1{
+  width: 100%;
+  height: 60px;
+  background-color: #f98b88;
+}
+
+.Body2{
+  background-color: #f4f4f2;
+  height: 450px;
+}
+
+.Body2 .container{
+  padding-top: 80px;
+}
+
+.Body2 p{
+  font-size: 18px;
+}
+
+.Body2 .row{
+  padding-top: 40px;
+}
+
+.Body2 .col-lg-6 p{
+  font-size: 16px;
+}
+
+.Border2{
+  width: 100%;
+  height: 40px;
+  background-color: #0D89E5;
+}
+
+.Body3{
+  background-color: #204051;
+  height: auto;
+}
+
+.Body3 .row{
+  padding-top: 50px;
+}
+
+.Body3 .container .col-lg-6 h2{
+  color: #fff;
+}
+
+.Body3 .container .col-lg-6 p{
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.Border3{
+  width: 100%;
+  height: 40px;
+  background-color: #ff8c54;
+}
+
+.Footer{
+  margin-top: 0px;
+}
+
+
+@media screen and (max-width:450px){
+  .Large{
+    display: none;
+  }
+
+  .Mobile{
+    display: block;
+  }
+
+  .Body1{
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background-color: #fff;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Body1 h1{
+    font-size: 3.0em;
+    color: #000;
+    text-align: center;
+    margin-top: 0px;
+    position: absolute;
+    left: 19%;
+  }
+
+  .Body1 hr{
+    border-width: 1px;
+    color: #000;
+    background-color: #000;
+    height: 1px;
+    width: 80%;
+    margin-top: 80px;
+  }
+
+  .Body2{
+    background-color: #f4f4f2;
+    height: auto;
+  }
+
+  .Body2 .container{
+    padding-top: 80px;
+  }
+
+  .Body2 p{
+    font-size: 18px;
+  }
+
+  .Body2 .row{
+    padding-top: 40px;
+  }
+
+  .Body2 .col-lg-6 p{
+    font-size: 16px;
+  }
+
+  .Body3{
+    background-color: #204051;
+    height: auto;
+  }
+
+  .Body3 .row{
+    padding-top: 50px;
+  }
+
+  .Body3 .container .col-lg-6 h2{
+    color: #fff;
+  }
+
+  .Body3 .container .col-lg-6 p{
+    font-size: 16px;
+    color: #fafafa;
+  }
+
+}
